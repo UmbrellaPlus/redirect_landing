@@ -35,6 +35,11 @@ header p {
     margin-top: 0.5rem;
     font-size: 1.4rem;
 }
+.subtitle {
+    margin: 1em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
 main {
     padding: 0 2rem;
     max-width: 800px;
