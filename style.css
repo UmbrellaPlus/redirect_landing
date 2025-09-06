@@ -36,9 +36,9 @@ header p {
     font-size: 1.4rem;
 }
 .subtitle {
-    margin: 1em;
     font-size: 1.6em;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 main {
     padding: 0 2rem;
@@ -72,15 +72,19 @@ footer {
     padding: 1rem;
     font-size: 0.9rem;
 }
+header h2 {
+    margin: 0;
+
+}
 h2 {
     text-align: center;
-    color: #1d5d9b;
     font-size: 1.8rem;
     position: relative;
     padding-bottom: 0.5rem;
+    font-weight: normal;
 }
 
-h2::after {
+main h2::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -102,12 +106,10 @@ h2::after {
 }
 .lang-switch {
     text-align: center;
-    margin-top: 1rem;
 }
 .lang-switch span {
-    font-weight: bold;
     margin-right: 0.5rem;
-    color: #1d5d9b;
+    font-size: 1.3rem;
 }
 .services {
     display: flex;
@@ -149,7 +151,7 @@ h2::after {
 
 .btn {
     display: inline-block;
-    width: 30%;
+    width: 15%;
     height: 25px;
     padding: 10px 20px;
     background-color: #D3231DFF;
@@ -159,7 +161,6 @@ h2::after {
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
-    margin-top: 20px;
     transition: background-color 0.3s ease;
 }
 
@@ -229,9 +230,11 @@ h2::after {
 .btn-group {
     display: flex;
     justify-content: center;
-    margin-top: -2em;
     gap: 15px;
+    margin-bottom: 1rem;
 }
+
+
 
 @media (max-width: 768px) {
     .header{
