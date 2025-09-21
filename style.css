@@ -92,7 +92,7 @@ main h2::after {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background-color: #D3231D;
+    /*background-color: #D3231D;*/
 }
 
 .container {
