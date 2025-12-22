@@ -176,6 +176,7 @@ main h2::after {
 }
 .preheader-numbers p a{
     color:whitesmoke;
+    text-decoration: none;
 }
 .preheader-numbers p a img{
     width: 20px;
